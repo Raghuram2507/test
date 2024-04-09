@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Biodata</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: beige;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .container {
+            width: 800px;
+            margin-top: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+        }
+
+        header {
+            background-color: salmon;
+            color: black;
+            padding: 20px;
+            text-align: center;
+            width: 100%;
+        }
+
+        section {
+            width: 45%;
+            margin: 20px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px blue;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        .info p {
+            margin: 10px 0;
+        }
+
+        .interests ul {
+            list-style-type: circle;
+            padding: 10;
+        }
+
+        .interests li {
+            margin-bottom: 5px;
+        }
+
+        .images-container {
+            display: flex;
+            justify-content: space-between;
+            width: 80%;
+        }
+
+        article {
+            width: 45%;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px blue;
+            text-align: center;
+        }
+
+        img {
+            width: 60%;
+            height: 60%;
+            object-fit: fill;
+            border-radius: 10px 10px 0 0;
+        }
+
+        .caption {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1><u>My Biodata</u></h1>
+    </header>
+
+    <div class="container">
+        <section class="info">
+            <h2>Personal Information</h2>
+            <p>Hello I am A Raghuram, I am from Kerala,
+                currently pursuing btech in CSE from Presidency
+                University. I like sports and travelling and 
+                I wish to travel to as many countries as possible.
+            </p>
+        </section>
+
+        <section class="interests">
+            <h2>Interests</h2>
+            <ul>
+                <li>Programming</li>
+                <li>Reading</li>
+                <li>Sports</li>
+                <li>Photography</li>
+                <li>Travelling</li>
+            </ul>
+        </section>
+    </div>
+
+    <div class="images-container">
+        <article>
+            <p class="caption"><h2>Favourite Food</h2></p>
+            <img src="pizza.jpg.png" alt="pizza">
+        </article>
+
+        <article>
+            <p class="caption"><h2>Favorite Destination</h2></p>
+            <img src="italy.jpg" alt="Italy">
+        </article>
+    </div>
+    <footer>
+        <p><h2>&copy; 2024 A Raghuram, 20211CSE0521</h2></p>
+    </footer>
+</body>
+</html>
